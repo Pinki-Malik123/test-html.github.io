@@ -1,0 +1,122 @@
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* #switch {
+        width: 100px;
+        height: 50px;
+    } */
+    .my_tab {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .tabs {
+        padding: 22px;
+        width: 100%;
+        gap: 12px;
+    }
+    .tabs li {
+        display: flex;
+        height: 65px;
+        padding: 10px;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background: #fff;
+        transition: 0.2s linear;
+        font-size: 18px;
+        box-shadow: var(--box-shadow2), var(--box-shadow);
+        cursor: pointer;
+    }
+    .contents {
+      width: 100%;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+/*   .show {
+    display: block;
+} */
+.heading h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+.heading {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+span.text_c {
+  font-size: 14px;
+  transition: 2s ease-in all;
+  text-align: right;
+}
+.info_box ul li {
+  display: grid;
+  gap: 10px;
+  padding: 5px 0px;
+  grid-template-columns: 45% 1fr;
+}
+.service_box_row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}

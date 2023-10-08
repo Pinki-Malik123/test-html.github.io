@@ -1,0 +1,79 @@
+ /* =======================dark theme=========================== */
+ .main.dark_mode h1, .main.dark_mode h2, .main.dark_mode h3, .main.dark_mode h4, .main.dark_mode h5, .main.dark_mode h6, .main.dark_mode p, .main.dark_mode span{
+color: #fff;
+ }
+ .main.dark_mode .tabs li {
+    background: #1d1d1d;
+    box-shadow: var(--box-shadow2), var(--box-shadow3) !important;
+    transition:  2s ease-out, 0.2s ease-in;
+}
+.main.dark_mode .tabs li:hover {
+    background: var(--gredient);
+    color: #fff;
+    box-shadow: var(--box-shadow2), var(--box-shadow3);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    transition: all 0.2s ease-in !important;
+}
+  .main.dark_mode {
+    background: url(../images/bgtwo.jpg) no-repeat center;
+    background-size: cover;
+    transition: all 2s ease-in;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+.main.dark_mode .side_box {
+    background: #000;
+    color: var(--logo_white);
+}
+.main.dark_mode .box, .main.dark_mode.tabs li, .main.dark_mode .tabs, .main.dark_mode .about_area  {
+    background: #000;
+
+}
+.main.dark_mode p.para, .main.dark_mode span.text_c, .main.dark_mode span.info p, .main.dark_mode .service_content h3, .main.dark_mode .service_content p {
+    color: var(--logo_white);
+    transition: all 2s ease-in;
+}
+.main.dark_mode span.info p{
+    color: #A6A6A6;
+}
+.main.dark_mode .all_info_box {
+    background: #1d1d1d;
+    box-shadow: none;
+}
+.main.dark_mode .service_item{
+    border-color: #333;
+transition: all 2s ease-in;
+background: transparent;
+}
+.main.dark_mode span.icon{
+    background: #000;
+    transition: all 2s ease-in;
+    box-shadow: none;
+}
+.main.dark_mode .socialbtn{
+    background: #1d1d1d;
+    transition: all 2s ease-in;
+    box-shadow: none; 
+}
+.main.dark_mode .socialbtn:hover {
+    background: var(--gredient);
+    color: #fff !important;
+    box-shadow: var(--box-shadow2), var(--box-shadow3);
+    transition: 0.5s all ease-in-out;
+}
+.main.dark_mode span.icon:hover {
+    background: var(--gredient);
+    color: #fff !important;
+    box-shadow: var(--box-shadow2), var(--box-shadow3);
+    transition: 0.5s all ease-in-out;
+}
+.main.dark_mode span.icon.pink:hover svg path{
+    fill:#fff !important;;
+}
+.main.dark_mode h3.role {
+    transition: all 2s ease-in;
+    background: #1d1d1d;
+    color: #898989;
+}
